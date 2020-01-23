@@ -15,6 +15,9 @@ let package = Package(
             name: "ImageSlideshow/Alamofire",
             targets: ["ImageSlideshowAlamofire"])
     ],
+    dependencies: [
+        .package(url: "https://github.com/Alamofire/AlamofireImage.git", from: "3.6.0")
+    ],
     targets: [
         .target(
             name: "ImageSlideshow",
