@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "ImageSlideshow",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v10),
     ],
     products: [
         .library(
@@ -16,7 +16,7 @@ let package = Package(
             targets: ["ImageSlideshowAlamofire"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/AlamofireImage.git", from: "4.1.0")
+        .package(url: "https://github.com/Alamofire/AlamofireImage.git", from: "3.6.0")
     ],
     targets: [
         .target(
